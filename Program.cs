@@ -33,7 +33,10 @@ namespace DateTimeEX
             var duration = end - start;
             Console.WriteLine("Duration: = " + duration);
 
+            //Properties
 
+            Console.WriteLine("Minutes: "+ timeSpan.Minutes);
+            Console.WriteLine("Totla Minutes: " + timeSpan.TotalMinutes);
         }
     }
 }
